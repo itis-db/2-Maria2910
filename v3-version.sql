@@ -1,4 +1,3 @@
-
 --v2
 alter table human add column date_registration timestamp default current_timestamp; -- + timestamp
 alter table company add constraint unique_model unique (INN); -- + unique
